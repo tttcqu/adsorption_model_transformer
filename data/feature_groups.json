@@ -1,0 +1,98 @@
+{
+  "framework": [
+    "LCD_A",
+    "PLD_A",
+    "density_g_cm3",
+    "ASA_m2_cm3",
+    "GSA_m2_g",
+    "VF",
+    "PV_cm3_g",
+    "cof_frac_B",
+    "cof_frac_C",
+    "cof_frac_H",
+    "cof_frac_N",
+    "cof_frac_O",
+    "cof_frac_F",
+    "cof_frac_S",
+    "cof_frac_Si",
+    "cof_hetero_atom_fraction",
+    "cof_H_over_C",
+    "cof_N_over_C",
+    "cof_O_over_C",
+    "cof_aromatic_proxy_C_over_H",
+    "cof_cell_anisotropy",
+    "cof_layer_spacing_proxy_A",
+    "cof_pore_shape_LCD_over_PLD",
+    "cof_density_times_VF",
+    "cof_GSA_times_VF",
+    "cof_PV_times_density"
+  ],
+  "gas": [
+    "gas_Tc_K",
+    "gas_pc_Pa",
+    "gas_acentric_factor",
+    "gas_d_A",
+    "gas_molar_mass_g_mol",
+    "gas_MolLogP",
+    "gas_MolMR",
+    "gas_NumValenceElectrons"
+  ],
+  "geometry": [
+    "geom_n_atoms",
+    "geom_n_element_types",
+    "geom_cell_volume_A3",
+    "geom_lattice_a_A",
+    "geom_lattice_b_A",
+    "geom_lattice_c_A",
+    "geom_bbox_x_A",
+    "geom_bbox_y_A",
+    "geom_bbox_z_A",
+    "geom_pair_mean_A",
+    "geom_pair_std_A",
+    "geom_pair_q25_A",
+    "geom_pair_q50_A",
+    "geom_pair_q75_A",
+    "geom_nearest_mean_A",
+    "geom_frac_C",
+    "geom_frac_H",
+    "geom_frac_O",
+    "has_geometry"
+  ],
+  "temperature": [
+    "temperature_K"
+  ],
+  "capacity": [
+    "density_g_cm3",
+    "ASA_m2_cm3",
+    "GSA_m2_g",
+    "VF",
+    "PV_cm3_g"
+  ],
+  "confinement": [
+    "LCD_A",
+    "PLD_A",
+    "cof_pore_shape_LCD_over_PLD",
+    "geom_nearest_mean_A"
+  ],
+  "dispersion": [
+    "cof_frac_C",
+    "cof_aromatic_proxy_C_over_H"
+  ],
+  "electrostatic": [
+    "cof_hetero_atom_fraction",
+    "cof_frac_N",
+    "cof_frac_O",
+    "cof_frac_F",
+    "cof_frac_S",
+    "geom_frac_O"
+  ],
+  "heterogeneity": [
+    "geom_n_element_types",
+    "geom_pair_std_A",
+    "geom_pair_q25_A",
+    "geom_pair_q75_A",
+    "cof_cell_anisotropy",
+    "cof_pore_shape_LCD_over_PLD",
+    "cof_hetero_atom_fraction"
+  ]
+}
